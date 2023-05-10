@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+.header-bgm {
+  background-color: #3282bf;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 760px) {
+  .header-bgm {
+    height: 20vh;
+  }
+}
+
+.header-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 760px) {
+  .header-heading {
+    font-size: 36px;
+  }
+}

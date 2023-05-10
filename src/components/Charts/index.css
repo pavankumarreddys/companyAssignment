@@ -1,0 +1,11 @@
+.chart-main-bgm {
+  display: flex;
+}
+.right-chart-side-container {
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

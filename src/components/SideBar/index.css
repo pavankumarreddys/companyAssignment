@@ -1,0 +1,38 @@
+.side-bar-main-bgm {
+  background-color: rgb(169, 221, 241);
+  width: 20%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 12px;
+}
+.sidebar-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: black;
+  font-size: 15px;
+  padding-top: 10px;
+}
+@media screen and (min-width: 760px) {
+  .sidebar-heading {
+    font-size: 28px;
+    padding-top: 25px;
+  }
+}
+
+.side-hr-line {
+  border: 1px solid gray;
+  width: 100%;
+  margin-top: 8px;
+}
+@media screen and (min-width: 760px) {
+  .side-hr-line {
+    margin-top: 15px;
+  }
+}
+
+.link-text {
+  text-decoration: none;
+}
